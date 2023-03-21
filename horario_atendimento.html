@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horários de Atendimento e Preços</title>
+    <link rel="stylesheet" href="base.css">
+</head>  
+
+  <style>
+
+    .Imagem_Header_Agenda {
+        text-align: center;
+    }
+    
+    .Imagem_Recepcao {
+        text-align: center;
+    }
+     
+    table {
+              -webkit-box-shadow: 12px 14px 5px -5px rgba(0,0,0,0.17); 
+              box-shadow: 12px 14px 5px -5px rgba(0,0,0,0.17);
+              border: solid 1px gray;                 
+    }  
+
+    table thead {
+              background-color: black;
+              color: white;  
+                        
+    }
+
+    table td {
+              background-color: lightgray;
+               
+               
+    }
+    table tbody tr, tbody td {
+              background-color: #f1f1f1;
+              text-align: center; 
+    }
+     
+    
+    .Formas_Pagamento {
+         
+        display: flex;
+        color: rgb(99, 56, 240);
+        
+         
+    }      
+
+     h1 {
+        margin-left: 45px;
+        
+     }
+    
+  </style>
+  
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li title="Clique aqui para voltar menu anterior"><font size="5"><a href="/segundo_desafio/clinica.html">Voltar</a></font></li><br>                
+            </ul>
+        </div>
+
+        <div class="main">
+            <thead>
+                <div class="header">
+                    <!-- Aqui vai o seu header -->]
+                    <div  class="Imagem_Header_Agenda">
+                       <img src="/segundo_desafio/imagens/brasao20.jpg"  width="150" height="150"  alt=""> 
+                       <h1 style="background-color: chocolate;" align="center" >Horários de Atendimento e Preços</h1>
+                </div>
+                
+            </thead>
+             
+             <tbody>
+               <div class="content">
+                    <!-- Aqui vai o seu conteúdo -->  
+                    <div class="Tabela_Horário">
+                         <div class="Imagem_Recepcao">
+                            <img src="/segundo_desafio/imagens/agenda_medica.jpg" width="80" height="80" align="center">
+                        </div>
+                                   
+                        <table id="Tab_Horarios"summary="Esta tabela são os horários de atendimento"  width="350"  cellspacing="0" cellpadding="5" align="left" >
+                           <thead>  
+                                <tr>
+                                  <th colspan="4"> <Font color="red"><font size=5px>Tabela de Horários</font></Font></th>
+                                </tr>      
+                                  <tr>
+                                    <th title="Serviços"><font size="4px">Serviços</font></th> 
+                                    <th title="Segunda à Sexta"><font size="4px">Semanal</font></th>                                           
+                                    <th title="Sabado"><font size="4px">Sábado</font></th>  
+                                    <th title="Feriados"><font size="4px">Feriados</font></th>                                     
+                                </tr>
+                            </thead>  
+                          
+                            <tbody>   
+                               <tr>
+                                    <td><font size=3px><b>Clínico Geral</b></font></td>                                 
+                                    <td><font size=3px><b>08h-19h <b></font></td>
+                                    <td><font size=3px><b>08h-19h <b></font></td>
+                                    <td><font size=3px><b>08h-19h <b></font></td>
+                               </tr> 
+                               <tr>
+                                     <td><font size=3px><b>Psicologia</b></font></td>                                 
+                                    <td><font size=3px><b>08h-19h <b></font></td>
+                                    <td><font size=3px><b>08h-19h <b></font></td>
+                                    <td><font size=3px><b>08h-14h <b></font></td>
+                               </tr> 
+                               <tr>
+                                    <td><font size=3px><b>Pediatria</b></font></td>                                 
+                                    <td><font size=3px><b>08h-19h <b></font></td>
+                                    <td><font size=3px><b>08h-18h <b></font></td>
+                                    <td><font size=3px><b> - <b></font></td>
+                               </tr> 
+                               <tr>
+                                   <td><font size=3px><b>Oftamologia</b></font></td>                                 
+                                   <td><font size=3px><b>08h-19h <b></font></td>
+                                   <td><font size=3px><b>08h-18h <b></font></td>
+                                   <td><font size=3px><b> - <b></font></td>
+                               </tr> 
+                                
+                            </tbody>   
+
+                        </table>
+
+                        <table id="Tab_Precos" summary="Esta tabela de Preços"  width="300"  cellspacing="0" cellpadding="5" align="right" >
+                            <thead>  
+                                 <tr>
+                                   <th colspan="2"> <Font color="red"><font size=5px>Tabela de Preços</font></Font></th>
+                                 </tr>      
+                                   <tr> 
+                                     <th title="Serviços"><font size="4px">Serviços</font></th>  
+                                     <th title="Precos"><font size="4px">Preços (Cr$)</font></th>        
+                                                                           
+                                 </tr>
+                             </thead>  
+                           
+                             <tbody>   
+                                <tr>
+                                     <td><font size=3px><b>Clínica Geral</b></font></td>                                 
+                                     <td><font size=3px><b>80,00 <b></font></td>                                      
+                                <tr>
+                                      <td><font size=3px><b>Psicologia</b></font></td>                                 
+                                     <td><font size=3px><b>250,00 <b></font></td>
+                                </tr>
+                                <tr>
+                                     <td><font size=3px><b>Pediatria</b></font></td>                                 
+                                     <td><font size=3px><b>250,00</font></td>                                     
+                                </tr> 
+                                <tr>
+                                    <td><font size=3px><b>Oftamologia</b></font></td>                                 
+                                    <td><font size=3px><b>350,00 <b></font></td>                                     
+                                </tr> 
+                                 
+                             </tbody>   
+ 
+                         </table>
+                          
+                    </div>
+
+                    
+                 </div>    
+                 
+             </tbody>   
+             
+            
+            <tfoot>
+                <div class="footer">
+                    <!-- Aqui vai o seu conteúdo -->
+                    <div class="Formas_Pagamento">
+                          <img src="/segundo_desafio/imagens/formas_de_Pagamento7.jpg" width="195" height="195" >
+                          <h1><b><font color="black"><font size="5px">Formas de Pagamento:</font><br>
+                            <font color="white"><font size="4px">- Aceitamos cartões de crédito e débito.</font><br></b>
+                            <font color="white"><font size="4px">- Pagamento até em 10x no valor mínimo de Cr$300,00.</font><br></b><h1>
+                    </div>
+                                  
+               </div>
+            </tfoot>    
+            
+        </div>
+    </div>
+</body>
+</html>
